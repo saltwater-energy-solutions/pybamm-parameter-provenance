@@ -1,5 +1,7 @@
 # pybamm-parameter-provenance
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23243371.svg)](https://doi.org/10.5281/zenodo.23243371)
+
 Per-entry provenance for PyBaMM's bundled lithium-ion parameter sets: for each value,
 whether it was measured in the cited paper, fitted or tuned there, carried over from
 another study (literature value), assumed/default, or a simulation setting.
@@ -42,6 +44,10 @@ feedback it exceeds the cell's capacity.
 
 PyBaMM v22.1 parameter CSVs (Reference column), PyBaMM 26.9.0.0 parameter files,
 Chen et al. 2020 (JES 167 080534), O'Kane et al. 2022 (PCCP 24 7909) SI Table S4.
+
+## Cite
+
+Concept DOI (all versions): https://doi.org/10.5281/zenodo.23243371 · v0.1.0: https://doi.org/10.5281/zenodo.23243372 · see `CITATION.cff`.
 
 ## Licence
 
