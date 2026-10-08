@@ -1,0 +1,18 @@
+Data licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Applies to: every file in data/.
+Copyright (c) 2026 Saltwater Energy Solutions.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by/4.0/
+
+In short: you may copy, redistribute, adapt and build on these tables for any
+purpose, including commercially, provided you give appropriate credit, link to the
+licence, and indicate if changes were made. The summary is not a substitute for the
+legal code, which governs.
+
+Third-party content: parameter values and the v22.1 "Reference" labels are reproduced
+from PyBaMM (BSD-3-Clause, https://github.com/pybamm-team/PyBaMM) and from the cited
+papers. Their original licences and citations continue to apply to that content.
+
+The code in scripts/ is licensed separately under BSD-3-Clause (see LICENSE).

@@ -1,0 +1,17 @@
+set,n_entries,n_SEI_present,n_SEI_match_block,SEI partial molar volume [m3.mol-1],SEI resistivity [Ohm.m],SEI kinetic rate constant [m.s-1],SEI solvent diffusivity [m2.s-1],SEI electron conductivity [S.m-1],SEI lithium interstitial diffusivity [m2.s-1],Bulk solvent concentration [mol.m-3],EC diffusivity [m2.s-1],SEI open-circuit potential [V],SEI reaction exchange current density [A.m-2],Initial SEI thickness [m],Initial inner SEI thickness [m],Initial outer SEI thickness [m],Ratio of lithium moles to SEI moles,SEI growth activation energy [J.mol-1],EC initial concentration in electrolyte [mol.m-3],Lithium interstitial reference concentration [mol.m-3],Inner SEI partial molar volume [m3.mol-1],Outer SEI partial molar volume [m3.mol-1],citations
+Ai2020,126,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,0.0,4541.0,15.0,,,Ai2019
+Bonkile2024,180,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,38000.0,4541.0,15.0,,,Ai2019;Ai2022;Bonkile2024;Chen2020;OKane2020;OKane2022;Yang2017
+Chen2020,93,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,0.0,4541.0,15.0,,,Chen2020
+Chen2020_composite,119,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,0.0,4541.0,15.0,,,Ai2022;Chen2020
+Ecker2015,108,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,0.0,4541.0,15.0,,,Ecker2015i;Ecker2015ii;Hales2019;OKane2020;Richardson2020;Zhao2018
+Ecker2015_graphite_halfcell,89,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,0.0,4541.0,15.0,,,Ecker2015i;Ecker2015ii;Hales2019;OKane2020;Richardson2020;Xu2019;Zhao2018
+MSMR_Example,98,0,0,,,,,,,,,,,,,,,,,,,,Baker2018;Chen2020;Verbrugge2017
+Marquis2019,104,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,0.0,4541.0,15.0,,,Marquis2019
+Mohtat2020,108,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,0.0,4541.0,15.0,,,Mohtat2020
+NCA_Kim2011,103,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,0.0,4541.0,15.0,,,Kim2011
+OKane2022,131,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,1.0,38000.0,4541.0,15.0,,,Chen2020;OKane2020;OKane2022
+OKane2022_graphite_SiOx_halfcell,102,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,1.0,38000.0,4541.0,15.0,,,Chen2020;OKane2020;OKane2022;Xu2019
+ORegan2022,76,0,0,,,,,,,,,,,,,,,,,,,,Chen2020;ORegan2022
+Prada2013,53,0,0,,,,,,,,,,,,,,,,,,,,Chen2020;Prada2013
+Ramadass2004,98,9,8,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.0,1.5e-06,5e-09,,,2.0,0.0,4541.0,15.0,,,Ramadass2004
+Xu2019,65,9,9,9.585e-05,200000.0,1e-12,2.5e-22,8.95e-14,1e-20,2636.0,2e-18,0.4,1.5e-07,5e-09,,,2.0,0.0,4541.0,15.0,,,Valoen2005;Xu2019

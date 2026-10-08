@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use these tables, please cite them as below."
+title: "pybamm-parameter-provenance: per-entry provenance for PyBaMM lithium-ion parameter sets"
+type: dataset
+authors:
+  - name: "Saltwater Energy Solutions"
+version: 0.1.0
+repository-code: "https://github.com/saltwater-energy-solutions/pybamm-parameter-provenance"
+date-released: 2026-10-08
+license: CC-BY-4.0
+keywords:
+  - PyBaMM
+  - battery modelling
+  - parameter provenance
+  - SEI
+  - BattINFO
+references:
+  - type: software
+    title: PyBaMM
+    authors:
+      - name: "The PyBaMM Team"
+    version: 26.9.0.0
+    url: "https://github.com/pybamm-team/PyBaMM"
+  - type: article
+    title: "Development of Experimental Techniques for Parameterization of Multi-scale Lithium-ion Battery Models"
+    authors:
+      - family-names: Chen
+        given-names: Chang-Hui
+      - family-names: Brosa Planella
+        given-names: Ferran
+      - family-names: O'Regan
+        given-names: Kieran
+      - family-names: Gastol
+        given-names: Dominika
+      - family-names: Widanage
+        given-names: W. Dhammika
+      - family-names: Kendrick
+        given-names: Emma
+    doi: 10.1149/1945-7111/ab9050
+    journal: "Journal of The Electrochemical Society"
+    volume: 167
+    year: 2020

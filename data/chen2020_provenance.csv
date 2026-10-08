@@ -1,0 +1,93 @@
+entry,value,provenance_class,evidence
+Ratio of lithium moles to SEI moles,2.0,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+SEI partial molar volume [m3.mol-1],9.585e-05,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+SEI reaction exchange current density [A.m-2],1.5e-07,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+SEI resistivity [Ohm.m],200000.0,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+SEI solvent diffusivity [m2.s-1],2.5e-22,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+Bulk solvent concentration [mol.m-3],2636.0,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+SEI open-circuit potential [V],0.4,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+SEI electron conductivity [S.m-1],8.95e-14,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+SEI lithium interstitial diffusivity [m2.s-1],1e-20,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+Lithium interstitial reference concentration [mol.m-3],15.0,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+Initial SEI thickness [m],5e-09,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+EC initial concentration in electrolyte [mol.m-3],4541.0,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+EC diffusivity [m2.s-1],2e-18,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+SEI kinetic rate constant [m.s-1],1e-12,literature,SEI block: not in paper; v22.1 CSV cites Safari/Single/Ploehn/Yang or 'Guess'
+SEI growth activation energy [J.mol-1],0.0,assumed,0 J/mol placeholder; OKane2022 uses 38000
+Negative electrode reaction-driven LAM factor [m3.mol-1],0.0,assumed,zero = mechanism off; not in paper
+Positive electrode reaction-driven LAM factor [m3.mol-1],0.0,assumed,zero = mechanism off; not in paper
+Negative current collector thickness [m],1.2e-05,measured,"Table II 16.3/11.7 um, rounded to 16/12"
+Negative electrode thickness [m],8.52e-05,measured,Table II 85.2 um
+Separator thickness [m],1.2e-05,measured,Table II ca. 12 um
+Positive electrode thickness [m],7.56e-05,measured,Table II 75.6 um
+Positive current collector thickness [m],1.6e-05,measured,"Table II 16.3/11.7 um, rounded to 16/12"
+Electrode height [m],0.065,measured,Table II/VII width 6.5 cm
+Electrode width [m],1.58,measured,Table VII length 1.58 m
+Cell cooling surface area [m2],0.00531,measured,derived from measured 21.00 mm x 70.00 mm can (text p.5); not stated in paper (inferred)
+Cell volume [m3],2.42e-05,measured,derived from measured 21.00 mm x 70.00 mm can; not stated in paper (inferred)
+Cell thermal expansion coefficient [m.K-1],1.1e-06,literature,not in paper (isothermal model); origin not recorded
+Negative current collector conductivity [S.m-1],58411000.0,literature,v22.1 CSV: CRC Handbook (Cu/Al)
+Positive current collector conductivity [S.m-1],36914000.0,literature,v22.1 CSV: CRC Handbook (Cu/Al)
+Negative current collector density [kg.m-3],8960.0,literature,v22.1 CSV: CRC Handbook
+Positive current collector density [kg.m-3],2700.0,literature,v22.1 CSV: CRC Handbook
+Negative current collector specific heat capacity [J.kg-1.K-1],385.0,literature,v22.1 CSV: CRC Handbook
+Positive current collector specific heat capacity [J.kg-1.K-1],897.0,literature,v22.1 CSV: CRC Handbook
+Negative current collector thermal conductivity [W.m-1.K-1],401.0,literature,v22.1 CSV: CRC Handbook
+Positive current collector thermal conductivity [W.m-1.K-1],237.0,literature,v22.1 CSV: CRC Handbook
+Nominal cell capacity [A.h],5.0,setting,datasheet 5 Ah
+Current function [A],5.0,setting,default 1C
+Contact resistance [Ohm],0,setting,0 default
+Negative electrode conductivity [S.m-1],215.0,measured,4-point probe 180-250 S/m; 215 used
+Maximum concentration in negative electrode [mol.m-3],33133.0,fitted,tuned to 1C discharge (Table IX); measured 29583/51765
+Negative particle diffusivity [m2.s-1],3.3e-14,fitted,tuned to 1C (Table IX); GITT values 1.74e-15/1.48e-15 are 19x/2.7x lower
+Negative electrode OCP [V],graphite_LGM50_ocp_Chen2020,fitted,fitted to GITT half-cell pseudo-OCV (eqs 8-9)
+Negative electrode porosity,0.25,measured,Table II electrolyte volume fraction
+Negative electrode active material volume fraction,0.75,measured,1 - porosity (paper assumes no binder/carbon)
+Negative particle radius [m],5.86e-06,measured,Table II/VII mean particle size
+Negative electrode Bruggeman coefficient (electrolyte),1.5,assumed,theoretical 1.5; paper measured 2.43/2.57/2.91 (Table II)
+Negative electrode Bruggeman coefficient (electrode),0,assumed,0 in 26.9 (was 1.5 'default' in v22.1); not in paper
+Negative electrode charge transfer coefficient,0.5,assumed,symmetric reaction assumed in paper
+Negative electrode double-layer capacity [F.m-2],0.2,assumed,not in paper; no source in v22.1
+Negative electrode exchange-current density [A.m-2],graphite_LGM50_electrolyte_exchange_current_density_Chen2020,fitted,"EIS at 50% SOC, Arrhenius fit (Table VI, Fig 16)"
+Negative electrode density [kg.m-3],1657.0,assumed,v22.1 CSV: 'default'; not in paper
+Negative electrode specific heat capacity [J.kg-1.K-1],700.0,assumed,v22.1 CSV: 'default'; not in paper
+Negative electrode thermal conductivity [W.m-1.K-1],1.7,assumed,v22.1 CSV: 'default'; not in paper
+Negative electrode OCP entropic change [V.K-1],0.0,assumed,0; not in paper
+Positive electrode conductivity [S.m-1],0.18,measured,4-point probe 0.174-0.186 S/m; 0.18 used
+Maximum concentration in positive electrode [mol.m-3],63104.0,fitted,tuned to 1C discharge (Table IX); measured 29583/51765
+Positive particle diffusivity [m2.s-1],4e-15,fitted,tuned to 1C (Table IX); GITT values 1.74e-15/1.48e-15 are 19x/2.7x lower
+Positive electrode OCP [V],nmc_LGM50_ocp_Chen2020,fitted,fitted to GITT half-cell pseudo-OCV (eqs 8-9)
+Positive electrode porosity,0.335,measured,Table II electrolyte volume fraction
+Positive electrode active material volume fraction,0.665,measured,1 - porosity (paper assumes no binder/carbon)
+Positive particle radius [m],5.22e-06,measured,Table II/VII mean particle size
+Positive electrode Bruggeman coefficient (electrolyte),1.5,assumed,theoretical 1.5; paper measured 2.43/2.57/2.91 (Table II)
+Positive electrode Bruggeman coefficient (electrode),0,assumed,0 in 26.9 (was 1.5 'default' in v22.1); not in paper
+Positive electrode charge transfer coefficient,0.5,assumed,symmetric reaction assumed in paper
+Positive electrode double-layer capacity [F.m-2],0.2,assumed,not in paper; no source in v22.1
+Positive electrode exchange-current density [A.m-2],nmc_LGM50_electrolyte_exchange_current_density_Chen2020,fitted,"EIS at 50% SOC, Arrhenius fit (Table VI, Fig 16)"
+Positive electrode density [kg.m-3],3262.0,assumed,v22.1 CSV: 'default'; not in paper
+Positive electrode specific heat capacity [J.kg-1.K-1],700.0,assumed,v22.1 CSV: 'default'; not in paper
+Positive electrode thermal conductivity [W.m-1.K-1],2.1,assumed,v22.1 CSV: 'default'; not in paper
+Positive electrode OCP entropic change [V.K-1],0.0,assumed,0; not in paper
+Separator porosity,0.47,measured,Table II 47%
+Separator Bruggeman coefficient (electrolyte),1.5,assumed,theoretical 1.5; paper measured 2.43/2.57/2.91 (Table II)
+Separator density [kg.m-3],397.0,assumed,v22.1 CSV: 'default'; not in paper
+Separator specific heat capacity [J.kg-1.K-1],700.0,assumed,v22.1 CSV: 'default'; not in paper
+Separator thermal conductivity [W.m-1.K-1],0.16,assumed,v22.1 CSV: 'default'; not in paper
+Initial concentration in electrolyte [mol.m-3],1000.0,assumed,paper chose 1 mol/dm3; real cell 'likely up to 1.2'
+Cation transference number,0.2594,literature,Nyman 2008 polynomial evaluated at 1 M by the paper
+Thermodynamic factor,1.0,assumed,ideal electrolyte assumed in paper
+Electrolyte diffusivity [m2.s-1],electrolyte_diffusivity_Nyman2008,literature,"Nyman 2008 (EC:EMC 3:7), cited by paper"
+Electrolyte conductivity [S.m-1],electrolyte_conductivity_Nyman2008,literature,"Nyman 2008, cited by paper"
+Reference temperature [K],298.15,setting,25 C operating condition
+Total heat transfer coefficient [W.m-2.K-1],10.0,assumed,v22.1 CSV: 'default'
+Ambient temperature [K],298.15,setting,25 C operating condition
+Number of electrodes connected in parallel to make a cell,1.0,setting,single cell
+Number of cells connected in series to make a battery,1.0,setting,single cell
+Lower voltage cut-off [V],2.5,setting,2.5/4.2 V test window
+Upper voltage cut-off [V],4.2,setting,2.5/4.2 V test window
+Open-circuit voltage at 0% SOC [V],2.5,setting,2.5/4.2 V
+Open-circuit voltage at 100% SOC [V],4.2,setting,2.5/4.2 V
+Initial concentration in negative electrode [mol.m-3],29866.0,setting,0.9014 (measured) x 33133 (tuned)
+Initial concentration in positive electrode [mol.m-3],17038.0,setting,0.27 (tuned) x 63104 (tuned)
+Initial temperature [K],298.15,setting,25 C operating condition
